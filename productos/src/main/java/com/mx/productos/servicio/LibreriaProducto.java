@@ -7,4 +7,6 @@ import com.mx.productos.dto.Producto;
 public interface LibreriaProducto {
 	public List<Producto> ListarProductos();
 
+	public void guardarProducto(Producto producto);
+
 }

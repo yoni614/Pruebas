@@ -21,6 +21,15 @@ public class ProductoImplementacion implements LibreriaProducto  {
 		// TODO Auto-generated method stub
 		return productoDao.findAll();
 	}
+
+	@Override
+	public void guardarProducto(Producto producto) {
+		// TODO Auto-generated method stub
+		productoDao.save(producto);
+		
+	}
+	
+	
 	
 	
 	
